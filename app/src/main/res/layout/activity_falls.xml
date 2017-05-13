@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_falls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000FF"
+    tools:context="com.example.francis.touroftheni.Falls">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:text="suruli    Falls"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorPrimary"
+            android:background="@drawable/suruli"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:id="@+id/falls1" />
+
+        <Button
+            android:text="kumbakarai   Falls"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@color/colorPrimary"
+            android:background="@drawable/kumkara"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:id="@+id/falls2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Button
+            android:text="back"
+            android:textSize="17dp"
+            android:background="#D2B48C"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/backfall"
+            android:onClick="backfalls"
+            android:layout_alignParentTop="true" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

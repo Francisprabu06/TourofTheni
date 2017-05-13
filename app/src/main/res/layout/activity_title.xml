@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.francis.touroftheni.Title">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0000FF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5DEB3">
+            <Button
+                android:text="temples"
+                android:textSize="23dp"
+                android:background="#F5DEB3"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="temple"
+                android:id="@+id/temples"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_toEndOf="@+id/imageView3" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/veerapandi"
+                android:id="@+id/imageView3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="#00FA9A">
+
+        <Button
+            android:text="hills"
+            android:textSize="23dp"
+            android:background="#00FA9A"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:onClick="hill"
+            android:id="@+id/hills"
+            android:layout_toRightOf="@+id/imageView5"
+            android:layout_toEndOf="@+id/imageView5" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/hills1"
+                android:id="@+id/imageView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="#ADD8E6">
+
+            <Button
+                android:text="dams"
+                android:textSize="23dp"
+                android:background="#ADD8E6"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:onClick="dam"
+                android:id="@+id/dams"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView7"
+                android:layout_toEndOf="@+id/imageView7" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/dams"
+                android:id="@+id/imageView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="#E0FFFF">
+        <Button
+            android:text="falls"
+            android:textSize="23dp"
+            android:background="#E0FFFF"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:onClick="fall"
+            android:id="@+id/falls"
+            android:layout_toRightOf="@+id/imageView6"
+            android:layout_toEndOf="@+id/imageView6" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/falls"
+                android:id="@+id/imageView6"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+

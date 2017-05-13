@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dams"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5DEB3"
+    tools:context="com.example.francis.touroftheni.Dams">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0000FF">
+
+
+        <Button
+        android:text="Mullai periyar dam"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mullaperiyar"
+        android:id="@+id/dam1" />
+        <Button
+            android:text="vaigai dam"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/vaigai"
+            android:id="@+id/dam2" />
+        <Button
+            android:text="sothupparai dam"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/sothuppara"
+            android:id="@+id/dam3" />
+        <Button
+            android:text="manjalaru dam"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/manjalaru"
+            android:id="@+id/dam4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:text="back"
+                android:textSize="17dp"
+                android:background="#D2B48C"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:id="@+id/backdam"
+                android:onClick="backdams"
+                android:layout_alignParentTop="true" />
+            <Button
+                android:text="next"
+                android:textSize="17dp"
+                android:background="#D2B48C"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:id="@+id/nextdam"
+                android:onClick="nextdams"
+                android:layout_alignParentTop="true" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

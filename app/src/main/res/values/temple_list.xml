@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temple_list">
+        <item>Veerapandi Gowmariamman Temple</item>
+        <item>Arulmigu Balasubramaniya Temple</item>
+        <item>Kamatchi Amman Temple</item>
+        <item>Sri Saneeswara Bagawan Temple</item>
+        <item>Mavootru Vellapar Temple</item>
+        <item>Veerapa Ayyanar Temple</item>
+        <item>Kailasanathar Temple</item>
+    </string-array>
+
+</resources>

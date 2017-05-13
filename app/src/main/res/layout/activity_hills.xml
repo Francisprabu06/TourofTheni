@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hills"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5DEB3"
+    tools:context="com.example.francis.touroftheni.Hills">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#0000FF"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:text="Meghamalai-high wavy mountain"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:id="@+id/hills1"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/hills1"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="kurangani"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:id="@+id/hills2"
+            android:background="@drawable/kurangani"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="munnar"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:id="@+id/hills3"
+            android:background="@drawable/munnar"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="kumily"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:id="@+id/hills4"
+            android:background="@drawable/kumilyh"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:text="back"
+                android:textSize="17dp"
+                android:background="#D2B48C"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/backhill"
+                android:onClick="backhills"
+                android:layout_alignParentTop="true" />
+            <Button
+                android:text="next"
+                android:textSize="17dp"
+                android:background="#D2B48C"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:id="@+id/nexthill"
+                android:onClick="nexthills"
+                android:layout_alignParentTop="true" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
